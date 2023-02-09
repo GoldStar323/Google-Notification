@@ -1,10 +1,3 @@
-# google-notification
-
-How to enable Google notification using JavaScript?
-
-You can use it
-
-```
 document.addEventListener('DOMContentLoaded', function() {
     if (!Notification) {
      alert('Desktop notifications not available in your browser. Try Chromium.');
@@ -29,4 +22,3 @@ document.addEventListener('DOMContentLoaded', function() {
      };
     }
    }
-   ```
